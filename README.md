@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+kernelLog1pf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-kernel-log1pf/tags). For example,
+
+```javascript
 kernelLog1pf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var kernelLog1pf = require( 'path/to/vendor/umd/math-base-special-kernel-log1pf/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -111,7 +116,7 @@ v = kernelLog1pf( NaN );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtf@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
