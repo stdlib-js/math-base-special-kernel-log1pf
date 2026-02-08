@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@deno/mod.js';
+import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-deno/mod.js';
 ```
 
 #### kernelLog1pf( f )
@@ -84,7 +84,7 @@ v = kernelLog1pf( NaN );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import sqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtf@deno/mod.js';
-import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@deno/mod.js';
+import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
