@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@esm/index.mjs';
+import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-esm/index.mjs';
 ```
 
 #### kernelLog1pf( f )
@@ -89,7 +89,7 @@ v = kernelLog1pf( NaN );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import sqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtf@esm/index.mjs';
-import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@esm/index.mjs';
+import kernelLog1pf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-log1pf@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
